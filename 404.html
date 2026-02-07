@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | MuslimFit Pro</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            main: '#0D7C66',
+                            dark: '#0A5C4F',
+                            deep: '#0D4A3F',
+                            light: '#E8F5F1',
+                        },
+                        accent: {
+                            gold: '#D4AF37',
+                            'gold-dark': '#A38750',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-primary-deep min-h-screen flex items-center justify-center overflow-hidden">
+
+    <div class="pattern-bg absolute inset-0 opacity-20"></div>
+
+    <div class="container mx-auto px-6 relative z-10 text-center">
+        <div class="reveal-on-scroll active">
+            <div class="mb-12">
+                <div
+                    class="w-24 h-24 bg-white/10 backdrop-blur-xl rounded-3xl flex items-center justify-center mx-auto border border-white/20 shadow-2xl animate-float">
+                    <i class="fas fa-mosque text-accent-gold text-4xl"></i>
+                </div>
+            </div>
+
+            <h1 class="display-text text-8xl lg:text-9xl text-white mb-4">404</h1>
+            <h2 class="text-3xl lg:text-4xl font-bold text-accent-gold mb-8">Path Not Found</h2>
+
+            <p class="text-xl text-white/60 max-w-lg mx-auto mb-12 leading-relaxed">
+                The spiritual path you're looking for seems to have moved. Let's get you back on track.
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="index.html" class="btn-premium gold px-10 py-4">
+                    Return Home
+                </a>
+                <a href="features.html"
+                    class="px-10 py-4 rounded-full border border-white/20 text-white font-semibold hover:bg-white/10 transition-all">
+                    Explore Features
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Decorative Glows -->
+    <div class="absolute -top-1/4 -right-1/4 w-[600px] h-[600px] bg-primary-main/20 blur-[120px] rounded-full"></div>
+    <div class="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-accent-gold/10 blur-[120px] rounded-full"></div>
+
+</body>
+
+</html>

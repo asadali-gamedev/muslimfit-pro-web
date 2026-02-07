@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0D7C66">
+    <meta name="description" content="MuslimFit Pro - Your Complete Islamic Companion App">
+    <title>MuslimFit Pro - Islamic Companion</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS (for utility classes used in page templates) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-main': '#0D7C66',
+                        'primary-dark': '#0A5C4F',
+                        'primary-deep': '#0D4A3F',
+                        'primary-light': '#E8F5F1',
+                        'secondary-main': '#0D7C66',
+                        'secondary-light': '#E8F5F1',
+                        'accent-gold': '#D4AF37',
+                        'accent-gold-dark': '#A38750',
+                        'accent-gold-light': '#F5F0E6',
+                    },
+                    fontFamily: {
+                        'arabic': ['Amiri', 'serif'],
+                        'urdu': ['Noto Nastaliq Urdu', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen active">
+        <svg class="islamic-pattern" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="IslamicGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+                    <g fill="none" stroke="#F5ECD7" stroke-width="0.8">
+                        <path d="M30 0 L60 15 L60 45 L30 60 L0 45 L0 15 Z" />
+                        <path d="M30 0 L30 15 M60 15 L45 30 M60 45 L45 30 M30 60 L30 45 M0 45 L15 30 M0 15 L15 30" />
+                        <path d="M15 30 L45 30" />
+                        <path d="M30 15 L30 45" />
+                    </g>
+                </pattern>
+                <radialGradient id="spotlightGradient" cx="50%" cy="50%" r="55%">
+                    <stop offset="0%" stop-color="black" stop-opacity="1" />
+                    <stop offset="30%" stop-color="black" stop-opacity="0.9" />
+                    <stop offset="55%" stop-color="white" stop-opacity="0.4" />
+                    <stop offset="100%" stop-color="white" stop-opacity="1" />
+                </radialGradient>
+                <mask id="centerMask">
+                    <rect x="0" y="0" width="100%" height="100%" fill="url(#spotlightGradient)" />
+                </mask>
+            </defs>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#IslamicGrid)" opacity="0.18"
+                mask="url(#centerMask)" />
+        </svg>
+        <div class="splash-content">
+            <div class="icon-container">
+                <img src="assets/app-icon.png" alt="MuslimFit Pro" style="width: 90px; height: 90px; object-fit: contain; filter: drop-shadow(0 2px 10px rgba(0,0,0,0.3));">
+            </div>
+            <h1 class="brand-text">
+                <span class="white">MuslimFit </span>
+                <span class="gold">Pro</span>
+            </h1>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app-container" class="app-container">
+        <!-- Header -->
+        <header id="app-header" class="app-header">
+            <button class="header-btn back-btn hidden" id="back-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 18l-6-6 6-6" />
+                </svg>
+            </button>
+            <h1 class="header-title" id="header-title">MuslimFit Pro</h1>
+            <div class="header-actions">
+                <button class="header-btn lang-btn" id="lang-btn" title="Change Language">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="2" y1="12" x2="22" y2="12" />
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                    </svg>
+                </button>
+                <button class="header-btn" id="menu-toggle" title="Open Menu">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Side Menu (Drawer) -->
+        <div id="side-menu" class="fixed inset-0 z-50 hidden">
+            <div class="absolute inset-0 bg-black bg-opacity-50" id="menu-overlay"></div>
+            <div id="menu-content"
+                class="absolute right-0 top-0 h-full w-80 bg-white shadow-2xl transform translate-x-full transition-transform duration-300 overflow-y-auto">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-8">
+                        <h2 class="text-2xl font-bold text-gray-800">Menu</h2>
+                        <button id="menu-close" class="text-gray-600 hover:text-gray-800">
+                            <i class="fas fa-times text-2xl"></i>
+                        </button>
+                    </div>
+
+                    <!-- Islamic Content Section -->
+                    <div class="mb-6">
+                        <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Islamic Content</h3>
+                        <a href="#quran" class="menu-item" data-page="quran">
+                            <i class="fas fa-quran text-primary-main"></i>
+                            <span>Quran</span>
+                        </a>
+                        <a href="#hadith" class="menu-item" data-page="hadith">
+                            <i class="fas fa-book-open text-secondary-main"></i>
+                            <span>Hadith</span>
+                        </a>
+                        <a href="#duas" class="menu-item" data-page="duas">
+                            <i class="fas fa-hands-praying text-accent-gold"></i>
+                            <span>Duas</span>
+                        </a>
+                        <a href="#dhikr" class="menu-item" data-page="dhikr">
+                            <i class="fas fa-hand-sparkles text-primary-main"></i>
+                            <span>Dhikr Counter</span>
+                        </a>
+                        <a href="#allah-names" class="menu-item" data-page="allah-names">
+                            <i class="fas fa-infinity text-secondary-main"></i>
+                            <span>99 Names of Allah</span>
+                        </a>
+                        <a href="#prophet-names" class="menu-item" data-page="prophet-names">
+                            <i class="fas fa-star-and-crescent text-accent-gold"></i>
+                            <span>Names of Muhammad ﷺ</span>
+                        </a>
+                        <a href="#kalmas" class="menu-item" data-page="kalmas">
+                            <i class="fas fa-star-and-crescent text-accent-gold"></i>
+                            <span>6 Kalmas</span>
+                        </a>
+                        <a href="#quran-player" class="menu-item" data-page="quran-player">
+                            <i class="fas fa-headphones text-primary-main"></i>
+                            <span>Quran Player</span>
+                        </a>
+                    </div>
+
+                    <!-- Prayer & Worship Section -->
+                    <div class="mb-6">
+                        <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Prayer & Worship</h3>
+                        <a href="#prayer-times" class="menu-item" data-page="prayer-times">
+                            <i class="fas fa-clock text-primary-main"></i>
+                            <span>Prayer Times</span>
+                        </a>
+                        <a href="#qibla" class="menu-item" data-page="qibla">
+                            <i class="fas fa-compass text-secondary-main"></i>
+                            <span>Qibla Finder</span>
+                        </a>
+                        <a href="#namaz-guide" class="menu-item" data-page="namaz-guide">
+                            <i class="fas fa-mosque text-accent-gold"></i>
+                            <span>Namaz Guide</span>
+                        </a>
+                        <a href="#hajj-guide" class="menu-item" data-page="hajj-guide">
+                            <i class="fas fa-kaaba text-primary-main"></i>
+                            <span>Hajj Guide</span>
+                        </a>
+                        <a href="#umrah-guide" class="menu-item" data-page="umrah-guide">
+                            <i class="fas fa-kaaba text-secondary-main"></i>
+                            <span>Umrah Guide</span>
+                        </a>
+                        <a href="#pillars" class="menu-item" data-page="pillars">
+                            <i class="fas fa-columns text-accent-gold"></i>
+                            <span>5 Pillars</span>
+                        </a>
+                    </div>
+
+                    <!-- Ramadan & Charity Section -->
+                    <div class="mb-6">
+                        <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Ramadan & Charity</h3>
+                        <a href="#ramadan" class="menu-item" data-page="ramadan">
+                            <i class="fas fa-moon text-primary-main"></i>
+                            <span>Ramadan Tracker</span>
+                        </a>
+                        <a href="#zakat" class="menu-item" data-page="zakat">
+                            <i class="fas fa-hand-holding-heart text-secondary-main"></i>
+                            <span>Zakat Calculator</span>
+                        </a>
+                    </div>
+
+                    <!-- Fitness & Health Section -->
+                    <div class="mb-6">
+                        <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Fitness & Health</h3>
+                        <a href="#challenges" class="menu-item" data-page="challenges">
+                            <i class="fas fa-trophy" style="color: #4CAF50;"></i>
+                            <span>Challenges</span>
+                        </a>
+                        <a href="#exercises" class="menu-item" data-page="exercises">
+                            <i class="fas fa-dumbbell" style="color: #FF9800;"></i>
+                            <span>Exercise Guide</span>
+                        </a>
+                        <a href="#achievements" class="menu-item" data-page="achievements">
+                            <i class="fas fa-award" style="color: #9C27B0;"></i>
+                            <span>Achievements</span>
+                        </a>
+                        <a href="#step-counter" class="menu-item" data-page="step-counter">
+                            <i class="fas fa-walking" style="color: #2196F3;"></i>
+                            <span>Step Counter</span>
+                        </a>
+                        <a href="#water-tracker" class="menu-item" data-page="water-tracker">
+                            <i class="fas fa-tint" style="color: #00BCD4;"></i>
+                            <span>Water Tracker</span>
+                        </a>
+                        <a href="#sleep-tracker" class="menu-item" data-page="sleep-tracker">
+                            <i class="fas fa-bed" style="color: #673AB7;"></i>
+                            <span>Sleep Tracker</span>
+                        </a>
+                        <a href="#nutrition-tracker" class="menu-item" data-page="nutrition-tracker">
+                            <i class="fas fa-utensils" style="color: #FFC107;"></i>
+                            <span>Nutrition Tracker</span>
+                        </a>
+                    </div>
+
+                    <!-- User Section -->
+                    <div class="mb-6">
+                        <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Account</h3>
+                        <a href="#profile" class="menu-item" data-page="profile">
+                            <i class="fas fa-user text-primary-main"></i>
+                            <span>Profile</span>
+                        </a>
+                        <a href="#settings" class="menu-item" data-page="settings">
+                            <i class="fas fa-cog text-secondary-main"></i>
+                            <span>Settings</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Area -->
+        <main id="main-content" class="main-content">
+            <!-- Dynamic content loaded here -->
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <button class="nav-btn active" data-page="home" onclick="window.location.hash='home'">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                </svg>
+                <span>Home</span>
+            </button>
+            <button class="nav-btn" data-page="challenges" onclick="window.location.hash='challenges'">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                    <path d="M4 22h16" />
+                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2z" />
+                </svg>
+                <span>Challenges</span>
+            </button>
+            <button class="nav-btn nav-center" data-page="prayer-times" onclick="window.location.hash='prayer-times'">
+                <div class="center-btn-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C11.5 2 11 2.19 10.59 2.59L7.29 5.88C6.5 6.67 6 7.81 6 9V19H18V9C18 7.81 17.5 6.67 16.71 5.88L13.41 2.59C13 2.19 12.5 2 12 2ZM12 4L15 7C15.6 7.6 16 8.5 16 9V17H8V9C8 8.5 8.4 7.6 9 7L12 4Z"/>
+                        <path d="M12 6.5C11.17 6.5 10.5 7.17 10.5 8C10.5 8.83 11.17 9.5 12 9.5C12.83 9.5 13.5 8.83 13.5 8C13.5 7.17 12.83 6.5 12 6.5Z"/>
+                        <rect x="4" y="19" width="16" height="3" rx="1"/>
+                        <path d="M3 6L5 8M21 6L19 8"/>
+                        <circle cx="3" cy="4" r="1"/>
+                        <circle cx="21" cy="4" r="1"/>
+                    </svg>
+                </div>
+            </button>
+            <button class="nav-btn" data-page="health" onclick="window.location.hash='health'">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+                <span>Health</span>
+            </button>
+            <button class="nav-btn" data-page="more" onclick="window.location.hash='more'">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="1" />
+                    <circle cx="19" cy="12" r="1" />
+                    <circle cx="5" cy="12" r="1" />
+                </svg>
+                <span>More</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- Language Selector Modal -->
+    <div id="lang-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Select Language</h2>
+                <button class="modal-close" id="lang-modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <button class="lang-option" data-lang="en">
+                    <span>English</span>
+                    <span class="check">✓</span>
+                </button>
+                <button class="lang-option" data-lang="ur">
+                    <span>اردو (Urdu)</span>
+                    <span class="check">✓</span>
+                </button>
+                <button class="lang-option" data-lang="ar">
+                    <span>العربية (Arabic)</span>
+                    <span class="check">✓</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data-loader.js"></script>
+    <script src="js/pages.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

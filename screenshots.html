@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Screenshots - MuslimFit Pro</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            main: '#0D7C66',
+                            dark: '#0A5C4F',
+                            deep: '#0D4A3F',
+                            light: '#E8F5F1',
+                        },
+                        accent: {
+                            gold: '#D4AF37',
+                            'gold-dark': '#A38750',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        arabic: ['Amiri', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .screenshot-card {
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .screenshot-card:hover {
+            transform: translateY(-8px);
+        }
+        .screenshot-card:hover img {
+            transform: scale(1.03);
+        }
+        .screenshot-card img {
+            transition: transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .filter-pill.active {
+            background-color: #0D7C66;
+            color: white;
+            box-shadow: 0 10px 20px rgba(13, 124, 102, 0.2);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 glass-nav transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3 group cursor-pointer"
+                    onclick="window.location.href='index.html'">
+                    <img src="assets/logo.svg" alt="MuslimFit Pro" class="w-10 h-10 group-hover:rotate-6 transition-transform">
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900 tracking-tight">MuslimFit <span
+                                class="text-accent-gold">Pro</span></h1>
+                        <p class="text-[10px] uppercase tracking-widest text-gray-500 font-semibold">Faith • Fitness •
+                            Wellness</p>
+                    </div>
+                </div>
+
+                <div class="hidden lg:flex items-center space-x-10">
+                    <a href="index.html#features"
+                        class="text-sm font-semibold text-gray-700 hover:text-primary-main transition-colors">Features</a>
+                    <a href="screenshots.html"
+                        class="text-sm font-semibold text-primary-main transition-colors">Screenshots</a>
+                    <a href="app.html"
+                        class="text-sm font-semibold text-gray-700 hover:text-primary-main transition-colors">Web App</a>
+                    <a href="index.html#download"
+                        class="text-sm font-semibold text-gray-700 hover:text-primary-main transition-colors">Download</a>
+                    <a href="index.html#download" class="btn-premium primary text-sm">Get Started</a>
+                </div>
+
+                <button class="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl bg-gray-100"
+                    id="mobile-menu-btn">
+                    <i class="fas fa-bars text-gray-900"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="pt-40 pb-20 bg-white relative overflow-hidden">
+        <div class="pattern-bg absolute inset-0 opacity-10"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <div class="reveal-on-scroll">
+                <span
+                    class="px-4 py-2 rounded-full bg-primary-light text-primary-main text-xs font-bold uppercase tracking-widest mb-6 inline-block">Visual
+                    Tour</span>
+                <h1 class="display-text text-5xl lg:text-7xl text-gray-900 mb-6">See the <span
+                        class="gradient-text">Experience</span></h1>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Explore every corner of MuslimFit Pro through our
+                    detailed app interface showcases.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Screenshots Gallery -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+
+            <!-- Filter Tabs -->
+            <div class="flex flex-wrap justify-center gap-4 mb-16 reveal-on-scroll">
+                <button class="filter-pill active px-6 py-2.5 rounded-full bg-white text-sm font-bold transition-all shadow-sm" onclick="filterScreenshots('all')">All Screens</button>
+                <button class="filter-pill px-6 py-2.5 rounded-full bg-white text-gray-600 text-sm font-bold transition-all shadow-sm" onclick="filterScreenshots('faith')">Faith</button>
+                <button class="filter-pill px-6 py-2.5 rounded-full bg-white text-gray-600 text-sm font-bold transition-all shadow-sm" onclick="filterScreenshots('prayer')">Prayer</button>
+                <button class="filter-pill px-6 py-2.5 rounded-full bg-white text-gray-600 text-sm font-bold transition-all shadow-sm" onclick="filterScreenshots('health')">Health</button>
+                <button class="filter-pill px-6 py-2.5 rounded-full bg-white text-gray-600 text-sm font-bold transition-all shadow-sm" onclick="filterScreenshots('growth')">Growth</button>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8" id="screenshots-grid">
+
+                <!-- Home -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.05s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/home-dashboard.jpg" alt="Home Dashboard" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Home Dashboard</h3>
+                        <p class="text-xs text-gray-500 mt-1">Prayer times, quick access, daily tracking</p>
+                    </div>
+                </div>
+
+                <!-- All Features -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.1s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/all-features.jpg" alt="All Features" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">All Features</h3>
+                        <p class="text-xs text-gray-500 mt-1">Complete feature grid overview</p>
+                    </div>
+                </div>
+
+                <!-- Quran Hub -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.15s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/quran-hub.jpg" alt="Quran Hub" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Quran Hub</h3>
+                        <p class="text-xs text-gray-500 mt-1">Read or listen to the Holy Quran</p>
+                    </div>
+                </div>
+
+                <!-- Surahs List -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.2s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/surahs-list.jpg" alt="Surahs" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Surahs List</h3>
+                        <p class="text-xs text-gray-500 mt-1">Browse all 114 Surahs</p>
+                    </div>
+                </div>
+
+                <!-- Quran Reading -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.05s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/quran-reading.jpg" alt="Quran Reading" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Quran Reading</h3>
+                        <p class="text-xs text-gray-500 mt-1">Arabic text with translations</p>
+                    </div>
+                </div>
+
+                <!-- Quran Player -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.1s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/quran-player.jpg" alt="Quran Player" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Quran Player</h3>
+                        <p class="text-xs text-gray-500 mt-1">Audio recitation with 8 reciters</p>
+                    </div>
+                </div>
+
+                <!-- Hadith Collections -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.15s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/hadith-collections.jpg" alt="Hadith" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Hadith Collections</h3>
+                        <p class="text-xs text-gray-500 mt-1">6 authentic Hadith books</p>
+                    </div>
+                </div>
+
+                <!-- 99 Names -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.2s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/99-names.jpg" alt="99 Names of Allah" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">99 Names of Allah</h3>
+                        <p class="text-xs text-gray-500 mt-1">Asma ul Husna with meanings</p>
+                    </div>
+                </div>
+
+                <!-- Daily Azkar -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.05s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/daily-azkar.jpg" alt="Daily Azkar" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Daily Azkar & Duas</h3>
+                        <p class="text-xs text-gray-500 mt-1">186 authentic supplications</p>
+                    </div>
+                </div>
+
+                <!-- 5 Pillars -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.1s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/pillars-of-islam.jpg" alt="5 Pillars" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">5 Pillars of Islam</h3>
+                        <p class="text-xs text-gray-500 mt-1">Foundation of the faith</p>
+                    </div>
+                </div>
+
+                <!-- Dhikr Counter -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.15s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/dhikr-counter.jpg" alt="Dhikr Counter" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Dhikr Counter</h3>
+                        <p class="text-xs text-gray-500 mt-1">Digital tasbeeh with 214 adhkar</p>
+                    </div>
+                </div>
+
+                <!-- Dhikr Select -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="faith" style="transition-delay: 0.2s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/dhikr-select.jpg" alt="Dhikr Selection" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Dhikr Selection</h3>
+                        <p class="text-xs text-gray-500 mt-1">Choose from 214 authentic dhikr</p>
+                    </div>
+                </div>
+
+                <!-- Prayer Guides -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="prayer" style="transition-delay: 0.05s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/prayer-guides.jpg" alt="Prayer Guides" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Prayer & Namaz Guides</h3>
+                        <p class="text-xs text-gray-500 mt-1">Wudu, Azan, Namaz step-by-step</p>
+                    </div>
+                </div>
+
+                <!-- Qibla Compass -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="prayer" style="transition-delay: 0.1s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/qibla-compass.jpg" alt="Qibla Compass" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Qibla Compass</h3>
+                        <p class="text-xs text-gray-500 mt-1">GPS-based Kaaba direction finder</p>
+                    </div>
+                </div>
+
+                <!-- Zakat Calculator -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="prayer" style="transition-delay: 0.15s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/zakat-calculator.jpg" alt="Zakat Calculator" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Zakat Calculator</h3>
+                        <p class="text-xs text-gray-500 mt-1">Multi-currency Zakat computation</p>
+                    </div>
+                </div>
+
+                <!-- Ramadan Countdown -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="prayer" style="transition-delay: 0.2s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/ramadan-countdown.jpg" alt="Ramadan" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Ramadan Tracker</h3>
+                        <p class="text-xs text-gray-500 mt-1">Countdown, Sehri & Iftar times</p>
+                    </div>
+                </div>
+
+                <!-- Ramadan Tools -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="prayer" style="transition-delay: 0.05s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/ramadan-tools.jpg" alt="Ramadan Tools" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Ramadan Tools</h3>
+                        <p class="text-xs text-gray-500 mt-1">Fasting, Taraweeh, Charity, Quran</p>
+                    </div>
+                </div>
+
+                <!-- Health Dashboard -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="health" style="transition-delay: 0.1s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/health-dashboard.jpg" alt="Health Dashboard" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Health Dashboard</h3>
+                        <p class="text-xs text-gray-500 mt-1">Steps, water, and daily progress</p>
+                    </div>
+                </div>
+
+                <!-- Steps Tracker -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="health" style="transition-delay: 0.15s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/steps-tracker.jpg" alt="Steps Tracker" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Steps Tracker</h3>
+                        <p class="text-xs text-gray-500 mt-1">Daily steps, calories, distance</p>
+                    </div>
+                </div>
+
+                <!-- Water Tracker -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="health" style="transition-delay: 0.2s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/water-tracker.jpg" alt="Water Tracker" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Water Tracker</h3>
+                        <p class="text-xs text-gray-500 mt-1">Daily hydration with glass tracking</p>
+                    </div>
+                </div>
+
+                <!-- Nutrition Tracker -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="health" style="transition-delay: 0.05s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/nutrition-tracker.jpg" alt="Nutrition" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Nutrition Tracker</h3>
+                        <p class="text-xs text-gray-500 mt-1">Calorie counting and meal logging</p>
+                    </div>
+                </div>
+
+                <!-- Workouts -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="health" style="transition-delay: 0.1s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/workouts.jpg" alt="Workouts" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Workouts</h3>
+                        <p class="text-xs text-gray-500 mt-1">Guided workout routines</p>
+                    </div>
+                </div>
+
+                <!-- Exercise Guide -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="health" style="transition-delay: 0.15s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/exercise-guide.jpg" alt="Exercise Guide" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Exercise Guide</h3>
+                        <p class="text-xs text-gray-500 mt-1">Individual exercises by category</p>
+                    </div>
+                </div>
+
+                <!-- Challenges -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="growth" style="transition-delay: 0.2s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/challenges.jpg" alt="Challenges" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Challenges</h3>
+                        <p class="text-xs text-gray-500 mt-1">Spiritual & fitness challenges</p>
+                    </div>
+                </div>
+
+                <!-- Achievements -->
+                <div class="screenshot-card reveal-on-scroll" data-cat="growth" style="transition-delay: 0.05s">
+                    <div class="glass-card p-2 bg-white overflow-hidden">
+                        <div class="aspect-[9/19] bg-gray-100 rounded-2xl overflow-hidden">
+                            <img src="assets/screenshots/achievements.jpg" alt="Achievements" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="mt-4 px-1">
+                        <h3 class="text-base font-bold text-gray-900">Achievements</h3>
+                        <p class="text-xs text-gray-500 mt-1">35+ badges to unlock</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-16 border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8 mb-12">
+                <div class="flex items-center space-x-3">
+                    <img src="assets/logo.svg" alt="MuslimFit Pro" class="w-8 h-8 opacity-60">
+                    <span class="text-white font-black text-xl tracking-tight">MuslimFit <span
+                            class="text-accent-gold">Pro</span></span>
+                </div>
+                <div class="flex flex-wrap justify-center gap-8">
+                    <a href="index.html" class="text-gray-500 hover:text-white transition-colors text-sm font-bold uppercase tracking-widest">Home</a>
+                    <a href="index.html#features" class="text-gray-500 hover:text-white transition-colors text-sm font-bold uppercase tracking-widest">Features</a>
+                    <a href="app.html" class="text-gray-500 hover:text-white transition-colors text-sm font-bold uppercase tracking-widest">Web App</a>
+                    <a href="index.html#download" class="text-gray-500 hover:text-white transition-colors text-sm font-bold uppercase tracking-widest">Download</a>
+                </div>
+            </div>
+            <p class="text-gray-600 text-xs font-medium text-center">&copy; 2026 MuslimFit Pro. Built for the global Ummah.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-2', 'bg-white/95');
+                nav.classList.remove('py-4', 'bg-white/80');
+            } else {
+                nav.classList.add('py-4', 'bg-white/80');
+                nav.classList.remove('py-2', 'bg-white/95');
+            }
+        });
+
+        // Intersection Observer for reveal on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal-on-scroll').forEach((el) => observer.observe(el));
+
+        // Screenshot filtering
+        function filterScreenshots(category) {
+            const items = document.querySelectorAll('#screenshots-grid .screenshot-card');
+            const pills = document.querySelectorAll('.filter-pill');
+
+            pills.forEach(pill => {
+                pill.classList.remove('active');
+                if (pill.innerText.toLowerCase().includes(category) || (category === 'all' && pill.innerText.toLowerCase().includes('all'))) {
+                    pill.classList.add('active');
+                }
+            });
+
+            items.forEach(item => {
+                item.style.display = '';
+                if (category !== 'all' && item.getAttribute('data-cat') !== category) {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

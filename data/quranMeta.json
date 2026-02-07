@@ -1,0 +1,1188 @@
+{
+  "surahs": [
+    {
+      "number": 1,
+      "name": "الفَاتِحَة",
+      "transliteration": "Al-Fatiha",
+      "englishName": "The Opening",
+      "revelation": "Meccan",
+      "verses": 7
+    },
+    {
+      "number": 2,
+      "name": "البَقَرَة",
+      "transliteration": "Al-Baqara",
+      "englishName": "The Cow",
+      "revelation": "Medinan",
+      "verses": 286
+    },
+    {
+      "number": 3,
+      "name": "آل عِمْرَان",
+      "transliteration": "Aal-e-Imran",
+      "englishName": "The Family of Imran",
+      "revelation": "Medinan",
+      "verses": 200
+    },
+    {
+      "number": 4,
+      "name": "النِّسَاء",
+      "transliteration": "An-Nisa",
+      "englishName": "The Women",
+      "revelation": "Medinan",
+      "verses": 176
+    },
+    {
+      "number": 5,
+      "name": "المَائِدَة",
+      "transliteration": "Al-Ma'ida",
+      "englishName": "The Table Spread",
+      "revelation": "Medinan",
+      "verses": 120
+    },
+    {
+      "number": 6,
+      "name": "الأَنْعَام",
+      "transliteration": "Al-An'am",
+      "englishName": "The Cattle",
+      "revelation": "Meccan",
+      "verses": 165
+    },
+    {
+      "number": 7,
+      "name": "الأَعْرَاف",
+      "transliteration": "Al-A'raf",
+      "englishName": "The Heights",
+      "revelation": "Meccan",
+      "verses": 206
+    },
+    {
+      "number": 8,
+      "name": "الأَنْفَال",
+      "transliteration": "Al-Anfal",
+      "englishName": "The Spoils of War",
+      "revelation": "Medinan",
+      "verses": 75
+    },
+    {
+      "number": 9,
+      "name": "التَّوْبَة",
+      "transliteration": "At-Tawba",
+      "englishName": "The Repentance",
+      "revelation": "Medinan",
+      "verses": 129
+    },
+    {
+      "number": 10,
+      "name": "يُونُس",
+      "transliteration": "Yunus",
+      "englishName": "Jonah",
+      "revelation": "Meccan",
+      "verses": 109
+    },
+    {
+      "number": 11,
+      "name": "هُود",
+      "transliteration": "Hud",
+      "englishName": "Hud",
+      "revelation": "Meccan",
+      "verses": 123
+    },
+    {
+      "number": 12,
+      "name": "يُوسُف",
+      "transliteration": "Yusuf",
+      "englishName": "Joseph",
+      "revelation": "Meccan",
+      "verses": 111
+    },
+    {
+      "number": 13,
+      "name": "الرَّعْد",
+      "transliteration": "Ar-Ra'd",
+      "englishName": "The Thunder",
+      "revelation": "Medinan",
+      "verses": 43
+    },
+    {
+      "number": 14,
+      "name": "إِبْرَاهِيم",
+      "transliteration": "Ibrahim",
+      "englishName": "Abraham",
+      "revelation": "Meccan",
+      "verses": 52
+    },
+    {
+      "number": 15,
+      "name": "الحِجْر",
+      "transliteration": "Al-Hijr",
+      "englishName": "The Rocky Tract",
+      "revelation": "Meccan",
+      "verses": 99
+    },
+    {
+      "number": 16,
+      "name": "النَّحْل",
+      "transliteration": "An-Nahl",
+      "englishName": "The Bee",
+      "revelation": "Meccan",
+      "verses": 128
+    },
+    {
+      "number": 17,
+      "name": "الإِسْرَاء",
+      "transliteration": "Al-Isra",
+      "englishName": "The Night Journey",
+      "revelation": "Meccan",
+      "verses": 111
+    },
+    {
+      "number": 18,
+      "name": "الكَهْف",
+      "transliteration": "Al-Kahf",
+      "englishName": "The Cave",
+      "revelation": "Meccan",
+      "verses": 110
+    },
+    {
+      "number": 19,
+      "name": "مَرْيَم",
+      "transliteration": "Maryam",
+      "englishName": "Mary",
+      "revelation": "Meccan",
+      "verses": 98
+    },
+    {
+      "number": 20,
+      "name": "طه",
+      "transliteration": "Ta-Ha",
+      "englishName": "Ta-Ha",
+      "revelation": "Meccan",
+      "verses": 135
+    },
+    {
+      "number": 21,
+      "name": "الأَنْبِيَاء",
+      "transliteration": "Al-Anbiya",
+      "englishName": "The Prophets",
+      "revelation": "Meccan",
+      "verses": 112
+    },
+    {
+      "number": 22,
+      "name": "الحَجّ",
+      "transliteration": "Al-Hajj",
+      "englishName": "The Pilgrimage",
+      "revelation": "Medinan",
+      "verses": 78
+    },
+    {
+      "number": 23,
+      "name": "المُؤْمِنُون",
+      "transliteration": "Al-Mu'minun",
+      "englishName": "The Believers",
+      "revelation": "Meccan",
+      "verses": 118
+    },
+    {
+      "number": 24,
+      "name": "النُّور",
+      "transliteration": "An-Nur",
+      "englishName": "The Light",
+      "revelation": "Medinan",
+      "verses": 64
+    },
+    {
+      "number": 25,
+      "name": "الفُرْقَان",
+      "transliteration": "Al-Furqan",
+      "englishName": "The Criterion",
+      "revelation": "Meccan",
+      "verses": 77
+    },
+    {
+      "number": 26,
+      "name": "الشُّعَرَاء",
+      "transliteration": "Ash-Shu'ara",
+      "englishName": "The Poets",
+      "revelation": "Meccan",
+      "verses": 227
+    },
+    {
+      "number": 27,
+      "name": "النَّمْل",
+      "transliteration": "An-Naml",
+      "englishName": "The Ant",
+      "revelation": "Meccan",
+      "verses": 93
+    },
+    {
+      "number": 28,
+      "name": "القَصَص",
+      "transliteration": "Al-Qasas",
+      "englishName": "The Stories",
+      "revelation": "Meccan",
+      "verses": 88
+    },
+    {
+      "number": 29,
+      "name": "العَنْكَبُوت",
+      "transliteration": "Al-Ankabut",
+      "englishName": "The Spider",
+      "revelation": "Meccan",
+      "verses": 69
+    },
+    {
+      "number": 30,
+      "name": "الرُّوم",
+      "transliteration": "Ar-Rum",
+      "englishName": "The Romans",
+      "revelation": "Meccan",
+      "verses": 60
+    },
+    {
+      "number": 31,
+      "name": "لُقْمَان",
+      "transliteration": "Luqman",
+      "englishName": "Luqman",
+      "revelation": "Meccan",
+      "verses": 34
+    },
+    {
+      "number": 32,
+      "name": "السَّجْدَة",
+      "transliteration": "As-Sajda",
+      "englishName": "The Prostration",
+      "revelation": "Meccan",
+      "verses": 30
+    },
+    {
+      "number": 33,
+      "name": "الأَحْزَاب",
+      "transliteration": "Al-Ahzab",
+      "englishName": "The Combined Forces",
+      "revelation": "Medinan",
+      "verses": 73
+    },
+    {
+      "number": 34,
+      "name": "سَبَأ",
+      "transliteration": "Saba",
+      "englishName": "Sheba",
+      "revelation": "Meccan",
+      "verses": 54
+    },
+    {
+      "number": 35,
+      "name": "فَاطِر",
+      "transliteration": "Fatir",
+      "englishName": "The Originator",
+      "revelation": "Meccan",
+      "verses": 45
+    },
+    {
+      "number": 36,
+      "name": "يس",
+      "transliteration": "Ya-Sin",
+      "englishName": "Ya-Sin",
+      "revelation": "Meccan",
+      "verses": 83
+    },
+    {
+      "number": 37,
+      "name": "الصَّافَّات",
+      "transliteration": "As-Saffat",
+      "englishName": "Those Ranges in Ranks",
+      "revelation": "Meccan",
+      "verses": 182
+    },
+    {
+      "number": 38,
+      "name": "ص",
+      "transliteration": "Sad",
+      "englishName": "Sad",
+      "revelation": "Meccan",
+      "verses": 88
+    },
+    {
+      "number": 39,
+      "name": "الزُّمَر",
+      "transliteration": "Az-Zumar",
+      "englishName": "The Groups",
+      "revelation": "Meccan",
+      "verses": 75
+    },
+    {
+      "number": 40,
+      "name": "غَافِر",
+      "transliteration": "Ghafir",
+      "englishName": "The Forgiver",
+      "revelation": "Meccan",
+      "verses": 85
+    },
+    {
+      "number": 41,
+      "name": "فُصِّلَت",
+      "transliteration": "Fussilat",
+      "englishName": "Explained in Detail",
+      "revelation": "Meccan",
+      "verses": 54
+    },
+    {
+      "number": 42,
+      "name": "الشُّورَى",
+      "transliteration": "Ash-Shura",
+      "englishName": "The Consultation",
+      "revelation": "Meccan",
+      "verses": 53
+    },
+    {
+      "number": 43,
+      "name": "الزُّخْرُف",
+      "transliteration": "Az-Zukhruf",
+      "englishName": "The Gold Adornments",
+      "revelation": "Meccan",
+      "verses": 89
+    },
+    {
+      "number": 44,
+      "name": "الدُّخَان",
+      "transliteration": "Ad-Dukhan",
+      "englishName": "The Smoke",
+      "revelation": "Meccan",
+      "verses": 59
+    },
+    {
+      "number": 45,
+      "name": "الجَاثِيَة",
+      "transliteration": "Al-Jathiya",
+      "englishName": "The Kneeling",
+      "revelation": "Meccan",
+      "verses": 37
+    },
+    {
+      "number": 46,
+      "name": "الأَحْقَاف",
+      "transliteration": "Al-Ahqaf",
+      "englishName": "The Wind-Curved Sandhills",
+      "revelation": "Meccan",
+      "verses": 35
+    },
+    {
+      "number": 47,
+      "name": "مُحَمَّد",
+      "transliteration": "Muhammad",
+      "englishName": "Muhammad",
+      "revelation": "Medinan",
+      "verses": 38
+    },
+    {
+      "number": 48,
+      "name": "الفَتْح",
+      "transliteration": "Al-Fath",
+      "englishName": "The Victory",
+      "revelation": "Medinan",
+      "verses": 29
+    },
+    {
+      "number": 49,
+      "name": "الحُجُرَات",
+      "transliteration": "Al-Hujurat",
+      "englishName": "The Rooms",
+      "revelation": "Medinan",
+      "verses": 18
+    },
+    {
+      "number": 50,
+      "name": "ق",
+      "transliteration": "Qaf",
+      "englishName": "Qaf",
+      "revelation": "Meccan",
+      "verses": 45
+    },
+    {
+      "number": 51,
+      "name": "الذَّارِيَات",
+      "transliteration": "Adh-Dhariyat",
+      "englishName": "The Winnowing Winds",
+      "revelation": "Meccan",
+      "verses": 60
+    },
+    {
+      "number": 52,
+      "name": "الطُّور",
+      "transliteration": "At-Tur",
+      "englishName": "The Mount",
+      "revelation": "Meccan",
+      "verses": 49
+    },
+    {
+      "number": 53,
+      "name": "النَّجْم",
+      "transliteration": "An-Najm",
+      "englishName": "The Star",
+      "revelation": "Meccan",
+      "verses": 62
+    },
+    {
+      "number": 54,
+      "name": "القَمَر",
+      "transliteration": "Al-Qamar",
+      "englishName": "The Moon",
+      "revelation": "Meccan",
+      "verses": 55
+    },
+    {
+      "number": 55,
+      "name": "الرَّحْمَن",
+      "transliteration": "Ar-Rahman",
+      "englishName": "The Most Merciful",
+      "revelation": "Medinan",
+      "verses": 78
+    },
+    {
+      "number": 56,
+      "name": "الوَاقِعَة",
+      "transliteration": "Al-Waqi'a",
+      "englishName": "The Event",
+      "revelation": "Meccan",
+      "verses": 96
+    },
+    {
+      "number": 57,
+      "name": "الحَدِيد",
+      "transliteration": "Al-Hadid",
+      "englishName": "The Iron",
+      "revelation": "Medinan",
+      "verses": 29
+    },
+    {
+      "number": 58,
+      "name": "المُجَادَلَة",
+      "transliteration": "Al-Mujadila",
+      "englishName": "The Pleading Woman",
+      "revelation": "Medinan",
+      "verses": 22
+    },
+    {
+      "number": 59,
+      "name": "الحَشْر",
+      "transliteration": "Al-Hashr",
+      "englishName": "The Exile",
+      "revelation": "Medinan",
+      "verses": 24
+    },
+    {
+      "number": 60,
+      "name": "المُمْتَحَنَة",
+      "transliteration": "Al-Mumtahana",
+      "englishName": "The Examined One",
+      "revelation": "Medinan",
+      "verses": 13
+    },
+    {
+      "number": 61,
+      "name": "الصَّف",
+      "transliteration": "As-Saff",
+      "englishName": "The Ranks",
+      "revelation": "Medinan",
+      "verses": 14
+    },
+    {
+      "number": 62,
+      "name": "الجُمُعَة",
+      "transliteration": "Al-Jumu'a",
+      "englishName": "The Friday",
+      "revelation": "Medinan",
+      "verses": 11
+    },
+    {
+      "number": 63,
+      "name": "المُنَافِقُون",
+      "transliteration": "Al-Munafiqun",
+      "englishName": "The Hypocrites",
+      "revelation": "Medinan",
+      "verses": 11
+    },
+    {
+      "number": 64,
+      "name": "التَّغَابُن",
+      "transliteration": "At-Taghabun",
+      "englishName": "The Mutual Disillusion",
+      "revelation": "Medinan",
+      "verses": 18
+    },
+    {
+      "number": 65,
+      "name": "الطَّلَاق",
+      "transliteration": "At-Talaq",
+      "englishName": "The Divorce",
+      "revelation": "Medinan",
+      "verses": 12
+    },
+    {
+      "number": 66,
+      "name": "التَّحْرِيم",
+      "transliteration": "At-Tahrim",
+      "englishName": "The Prohibition",
+      "revelation": "Medinan",
+      "verses": 12
+    },
+    {
+      "number": 67,
+      "name": "المُلْك",
+      "transliteration": "Al-Mulk",
+      "englishName": "The Sovereignty",
+      "revelation": "Meccan",
+      "verses": 30
+    },
+    {
+      "number": 68,
+      "name": "القَلَم",
+      "transliteration": "Al-Qalam",
+      "englishName": "The Pen",
+      "revelation": "Meccan",
+      "verses": 52
+    },
+    {
+      "number": 69,
+      "name": "الحَاقَّة",
+      "transliteration": "Al-Haqqa",
+      "englishName": "The Inevitable",
+      "revelation": "Meccan",
+      "verses": 52
+    },
+    {
+      "number": 70,
+      "name": "المَعَارِج",
+      "transliteration": "Al-Ma'arij",
+      "englishName": "The Ascending Stairways",
+      "revelation": "Meccan",
+      "verses": 44
+    },
+    {
+      "number": 71,
+      "name": "نُوح",
+      "transliteration": "Nuh",
+      "englishName": "Noah",
+      "revelation": "Meccan",
+      "verses": 28
+    },
+    {
+      "number": 72,
+      "name": "الجِنّ",
+      "transliteration": "Al-Jinn",
+      "englishName": "The Jinn",
+      "revelation": "Meccan",
+      "verses": 28
+    },
+    {
+      "number": 73,
+      "name": "المُزَّمِّل",
+      "transliteration": "Al-Muzzammil",
+      "englishName": "The Enshrouded One",
+      "revelation": "Meccan",
+      "verses": 20
+    },
+    {
+      "number": 74,
+      "name": "المُدَّثِّر",
+      "transliteration": "Al-Muddaththir",
+      "englishName": "The Cloaked One",
+      "revelation": "Meccan",
+      "verses": 56
+    },
+    {
+      "number": 75,
+      "name": "القِيَامَة",
+      "transliteration": "Al-Qiyama",
+      "englishName": "The Resurrection",
+      "revelation": "Meccan",
+      "verses": 40
+    },
+    {
+      "number": 76,
+      "name": "الإِنْسَان",
+      "transliteration": "Al-Insan",
+      "englishName": "The Man",
+      "revelation": "Medinan",
+      "verses": 31
+    },
+    {
+      "number": 77,
+      "name": "المُرْسَلَات",
+      "transliteration": "Al-Mursalat",
+      "englishName": "The Emissaries",
+      "revelation": "Meccan",
+      "verses": 50
+    },
+    {
+      "number": 78,
+      "name": "النَّبَأ",
+      "transliteration": "An-Naba",
+      "englishName": "The Tidings",
+      "revelation": "Meccan",
+      "verses": 40
+    },
+    {
+      "number": 79,
+      "name": "النَّازِعَات",
+      "transliteration": "An-Nazi'at",
+      "englishName": "Those Who Drag Forth",
+      "revelation": "Meccan",
+      "verses": 46
+    },
+    {
+      "number": 80,
+      "name": "عَبَس",
+      "transliteration": "Abasa",
+      "englishName": "He Frowned",
+      "revelation": "Meccan",
+      "verses": 42
+    },
+    {
+      "number": 81,
+      "name": "التَّكْوِير",
+      "transliteration": "At-Takwir",
+      "englishName": "The Overthrowing",
+      "revelation": "Meccan",
+      "verses": 29
+    },
+    {
+      "number": 82,
+      "name": "الإِنْفِطَار",
+      "transliteration": "Al-Infitar",
+      "englishName": "The Cleaving",
+      "revelation": "Meccan",
+      "verses": 19
+    },
+    {
+      "number": 83,
+      "name": "المُطَفِّفِين",
+      "transliteration": "Al-Mutaffifin",
+      "englishName": "The Defrauding",
+      "revelation": "Meccan",
+      "verses": 36
+    },
+    {
+      "number": 84,
+      "name": "الإِنْشِقَاق",
+      "transliteration": "Al-Inshiqaq",
+      "englishName": "The Splitting Open",
+      "revelation": "Meccan",
+      "verses": 25
+    },
+    {
+      "number": 85,
+      "name": "البُرُوج",
+      "transliteration": "Al-Buruj",
+      "englishName": "The Mansions of the Stars",
+      "revelation": "Meccan",
+      "verses": 22
+    },
+    {
+      "number": 86,
+      "name": "الطَّارِق",
+      "transliteration": "At-Tariq",
+      "englishName": "The Nightcomer",
+      "revelation": "Meccan",
+      "verses": 17
+    },
+    {
+      "number": 87,
+      "name": "الأَعْلَى",
+      "transliteration": "Al-A'la",
+      "englishName": "The Most High",
+      "revelation": "Meccan",
+      "verses": 19
+    },
+    {
+      "number": 88,
+      "name": "الغَاشِيَة",
+      "transliteration": "Al-Ghashiya",
+      "englishName": "The Overwhelming",
+      "revelation": "Meccan",
+      "verses": 26
+    },
+    {
+      "number": 89,
+      "name": "الفَجْر",
+      "transliteration": "Al-Fajr",
+      "englishName": "The Dawn",
+      "revelation": "Meccan",
+      "verses": 30
+    },
+    {
+      "number": 90,
+      "name": "البَلَد",
+      "transliteration": "Al-Balad",
+      "englishName": "The City",
+      "revelation": "Meccan",
+      "verses": 20
+    },
+    {
+      "number": 91,
+      "name": "الشَّمْس",
+      "transliteration": "Ash-Shams",
+      "englishName": "The Sun",
+      "revelation": "Meccan",
+      "verses": 15
+    },
+    {
+      "number": 92,
+      "name": "اللَّيْل",
+      "transliteration": "Al-Layl",
+      "englishName": "The Night",
+      "revelation": "Meccan",
+      "verses": 21
+    },
+    {
+      "number": 93,
+      "name": "الضُّحَى",
+      "transliteration": "Ad-Duha",
+      "englishName": "The Morning Hours",
+      "revelation": "Meccan",
+      "verses": 11
+    },
+    {
+      "number": 94,
+      "name": "الشَّرْح",
+      "transliteration": "Ash-Sharh",
+      "englishName": "The Relief",
+      "revelation": "Meccan",
+      "verses": 8
+    },
+    {
+      "number": 95,
+      "name": "التِّين",
+      "transliteration": "At-Tin",
+      "englishName": "The Fig",
+      "revelation": "Meccan",
+      "verses": 8
+    },
+    {
+      "number": 96,
+      "name": "العَلَق",
+      "transliteration": "Al-Alaq",
+      "englishName": "The Clot",
+      "revelation": "Meccan",
+      "verses": 19
+    },
+    {
+      "number": 97,
+      "name": "القَدْر",
+      "transliteration": "Al-Qadr",
+      "englishName": "The Power",
+      "revelation": "Meccan",
+      "verses": 5
+    },
+    {
+      "number": 98,
+      "name": "البَيِّنَة",
+      "transliteration": "Al-Bayyina",
+      "englishName": "The Clear Proof",
+      "revelation": "Medinan",
+      "verses": 8
+    },
+    {
+      "number": 99,
+      "name": "الزَّلْزَلَة",
+      "transliteration": "Az-Zalzala",
+      "englishName": "The Earthquake",
+      "revelation": "Medinan",
+      "verses": 8
+    },
+    {
+      "number": 100,
+      "name": "العَادِيَات",
+      "transliteration": "Al-Adiyat",
+      "englishName": "The Courser",
+      "revelation": "Meccan",
+      "verses": 11
+    },
+    {
+      "number": 101,
+      "name": "القَارِعَة",
+      "transliteration": "Al-Qari'a",
+      "englishName": "The Calamity",
+      "revelation": "Meccan",
+      "verses": 11
+    },
+    {
+      "number": 102,
+      "name": "التَّكَاثُر",
+      "transliteration": "At-Takathur",
+      "englishName": "The Rivalry in Worldly Increase",
+      "revelation": "Meccan",
+      "verses": 8
+    },
+    {
+      "number": 103,
+      "name": "العَصْر",
+      "transliteration": "Al-Asr",
+      "englishName": "The Declining Day",
+      "revelation": "Meccan",
+      "verses": 3
+    },
+    {
+      "number": 104,
+      "name": "الهُمَزَة",
+      "transliteration": "Al-Humaza",
+      "englishName": "The Traducer",
+      "revelation": "Meccan",
+      "verses": 9
+    },
+    {
+      "number": 105,
+      "name": "الفِيل",
+      "transliteration": "Al-Fil",
+      "englishName": "The Elephant",
+      "revelation": "Meccan",
+      "verses": 5
+    },
+    {
+      "number": 106,
+      "name": "قُرَيْش",
+      "transliteration": "Quraish",
+      "englishName": "Quraish",
+      "revelation": "Meccan",
+      "verses": 4
+    },
+    {
+      "number": 107,
+      "name": "المَاعُون",
+      "transliteration": "Al-Ma'un",
+      "englishName": "The Small Kindnesses",
+      "revelation": "Meccan",
+      "verses": 7
+    },
+    {
+      "number": 108,
+      "name": "الكَوْثَر",
+      "transliteration": "Al-Kawthar",
+      "englishName": "The Abundance",
+      "revelation": "Meccan",
+      "verses": 3
+    },
+    {
+      "number": 109,
+      "name": "الكَافِرُون",
+      "transliteration": "Al-Kafirun",
+      "englishName": "The Disbelievers",
+      "revelation": "Meccan",
+      "verses": 6
+    },
+    {
+      "number": 110,
+      "name": "النَّصْر",
+      "transliteration": "An-Nasr",
+      "englishName": "The Divine Support",
+      "revelation": "Medinan",
+      "verses": 3
+    },
+    {
+      "number": 111,
+      "name": "المَسَد",
+      "transliteration": "Al-Masad",
+      "englishName": "The Palm Fiber",
+      "revelation": "Meccan",
+      "verses": 5
+    },
+    {
+      "number": 112,
+      "name": "الإِخْلَاص",
+      "transliteration": "Al-Ikhlas",
+      "englishName": "The Sincerity",
+      "revelation": "Meccan",
+      "verses": 4
+    },
+    {
+      "number": 113,
+      "name": "الفَلَق",
+      "transliteration": "Al-Falaq",
+      "englishName": "The Daybreak",
+      "revelation": "Meccan",
+      "verses": 5
+    },
+    {
+      "number": 114,
+      "name": "النَّاس",
+      "transliteration": "An-Nas",
+      "englishName": "Mankind",
+      "revelation": "Meccan",
+      "verses": 6
+    }
+  ],
+  "juzInfo": [
+    {
+      "number": 1,
+      "name": "الم",
+      "transliteration": "Alif Lam Meem",
+      "startSurah": 1,
+      "startVerse": 1,
+      "endSurah": 2,
+      "endVerse": 141
+    },
+    {
+      "number": 2,
+      "name": "سَيَقُولُ",
+      "transliteration": "Sayaqulu",
+      "startSurah": 2,
+      "startVerse": 142,
+      "endSurah": 2,
+      "endVerse": 252
+    },
+    {
+      "number": 3,
+      "name": "تِلْكَ الرُّسُلُ",
+      "transliteration": "Tilkar Rusul",
+      "startSurah": 2,
+      "startVerse": 253,
+      "endSurah": 3,
+      "endVerse": 92
+    },
+    {
+      "number": 4,
+      "name": "لَنْ تَنَالُوا",
+      "transliteration": "Lan Tana Lu",
+      "startSurah": 3,
+      "startVerse": 93,
+      "endSurah": 4,
+      "endVerse": 23
+    },
+    {
+      "number": 5,
+      "name": "وَالْمُحْصَنَاتُ",
+      "transliteration": "Wal Muhsanat",
+      "startSurah": 4,
+      "startVerse": 24,
+      "endSurah": 4,
+      "endVerse": 147
+    },
+    {
+      "number": 6,
+      "name": "لَا يُحِبُّ اللَّهُ",
+      "transliteration": "La Yuhibbullah",
+      "startSurah": 4,
+      "startVerse": 148,
+      "endSurah": 5,
+      "endVerse": 81
+    },
+    {
+      "number": 7,
+      "name": "وَإِذَا سَمِعُوا",
+      "transliteration": "Wa Iza Samioo",
+      "startSurah": 5,
+      "startVerse": 82,
+      "endSurah": 6,
+      "endVerse": 110
+    },
+    {
+      "number": 8,
+      "name": "وَلَوْ أَنَّنَا",
+      "transliteration": "Wa Lau Annana",
+      "startSurah": 6,
+      "startVerse": 111,
+      "endSurah": 7,
+      "endVerse": 87
+    },
+    {
+      "number": 9,
+      "name": "قَالَ الْمَلَأُ",
+      "transliteration": "Qalal Malao",
+      "startSurah": 7,
+      "startVerse": 88,
+      "endSurah": 8,
+      "endVerse": 40
+    },
+    {
+      "number": 10,
+      "name": "وَاعْلَمُوا",
+      "transliteration": "Waalamoo",
+      "startSurah": 8,
+      "startVerse": 41,
+      "endSurah": 9,
+      "endVerse": 92
+    },
+    {
+      "number": 11,
+      "name": "يَعْتَذِرُونَ",
+      "transliteration": "Yatazeroon",
+      "startSurah": 9,
+      "startVerse": 93,
+      "endSurah": 11,
+      "endVerse": 5
+    },
+    {
+      "number": 12,
+      "name": "وَمَا مِنْ دَابَّةٍ",
+      "transliteration": "Wa Ma Min Daabbah",
+      "startSurah": 11,
+      "startVerse": 6,
+      "endSurah": 12,
+      "endVerse": 52
+    },
+    {
+      "number": 13,
+      "name": "وَمَا أُبَرِّئُ",
+      "transliteration": "Wa Ma Ubarriu",
+      "startSurah": 12,
+      "startVerse": 53,
+      "endSurah": 14,
+      "endVerse": 52
+    },
+    {
+      "number": 14,
+      "name": "رُبَمَا",
+      "transliteration": "Rubama",
+      "startSurah": 15,
+      "startVerse": 1,
+      "endSurah": 16,
+      "endVerse": 128
+    },
+    {
+      "number": 15,
+      "name": "سُبْحَانَ",
+      "transliteration": "Subhana",
+      "startSurah": 17,
+      "startVerse": 1,
+      "endSurah": 18,
+      "endVerse": 74
+    },
+    {
+      "number": 16,
+      "name": "قَالَ أَلَمْ",
+      "transliteration": "Qal Alam",
+      "startSurah": 18,
+      "startVerse": 75,
+      "endSurah": 20,
+      "endVerse": 135
+    },
+    {
+      "number": 17,
+      "name": "اقْتَرَبَ",
+      "transliteration": "Iqtaraba",
+      "startSurah": 21,
+      "startVerse": 1,
+      "endSurah": 22,
+      "endVerse": 78
+    },
+    {
+      "number": 18,
+      "name": "قَدْ أَفْلَحَ",
+      "transliteration": "Qad Aflaha",
+      "startSurah": 23,
+      "startVerse": 1,
+      "endSurah": 25,
+      "endVerse": 20
+    },
+    {
+      "number": 19,
+      "name": "وَقَالَ الَّذِينَ",
+      "transliteration": "Wa Qalal Lazeena",
+      "startSurah": 25,
+      "startVerse": 21,
+      "endSurah": 27,
+      "endVerse": 55
+    },
+    {
+      "number": 20,
+      "name": "أَمَّنْ خَلَقَ",
+      "transliteration": "Amman Khalaqa",
+      "startSurah": 27,
+      "startVerse": 56,
+      "endSurah": 29,
+      "endVerse": 45
+    },
+    {
+      "number": 21,
+      "name": "اتْلُ مَا أُوحِيَ",
+      "transliteration": "Utlu Ma Uhiya",
+      "startSurah": 29,
+      "startVerse": 46,
+      "endSurah": 33,
+      "endVerse": 30
+    },
+    {
+      "number": 22,
+      "name": "وَمَنْ يَقْنُتْ",
+      "transliteration": "Wa Man Yaqnut",
+      "startSurah": 33,
+      "startVerse": 31,
+      "endSurah": 36,
+      "endVerse": 27
+    },
+    {
+      "number": 23,
+      "name": "وَمَالِيَ",
+      "transliteration": "Wa Mali",
+      "startSurah": 36,
+      "startVerse": 28,
+      "endSurah": 39,
+      "endVerse": 31
+    },
+    {
+      "number": 24,
+      "name": "فَمَنْ أَظْلَمُ",
+      "transliteration": "Faman Azlamu",
+      "startSurah": 39,
+      "startVerse": 32,
+      "endSurah": 41,
+      "endVerse": 46
+    },
+    {
+      "number": 25,
+      "name": "إِلَيْهِ يُرَدُّ",
+      "transliteration": "Ilayhi Yuraddu",
+      "startSurah": 41,
+      "startVerse": 47,
+      "endSurah": 45,
+      "endVerse": 37
+    },
+    {
+      "number": 26,
+      "name": "حم",
+      "transliteration": "Ha Meem",
+      "startSurah": 46,
+      "startVerse": 1,
+      "endSurah": 51,
+      "endVerse": 30
+    },
+    {
+      "number": 27,
+      "name": "قَالَ فَمَا خَطْبُكُمْ",
+      "transliteration": "Qala Fama Khatbukum",
+      "startSurah": 51,
+      "startVerse": 31,
+      "endSurah": 57,
+      "endVerse": 29
+    },
+    {
+      "number": 28,
+      "name": "قَدْ سَمِعَ اللَّهُ",
+      "transliteration": "Qad Samial Lahu",
+      "startSurah": 58,
+      "startVerse": 1,
+      "endSurah": 66,
+      "endVerse": 12
+    },
+    {
+      "number": 29,
+      "name": "تَبَارَكَ",
+      "transliteration": "Tabarakal Lazi",
+      "startSurah": 67,
+      "startVerse": 1,
+      "endSurah": 77,
+      "endVerse": 50
+    },
+    {
+      "number": 30,
+      "name": "عَمَّ",
+      "transliteration": "Amma Yatasa'aloon",
+      "startSurah": 78,
+      "startVerse": 1,
+      "endSurah": 114,
+      "endVerse": 6
+    }
+  ]
+}

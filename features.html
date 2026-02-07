@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Features - MuslimFit Pro</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            main: '#0D7C66',
+                            dark: '#0A5C4F',
+                            deep: '#0D4A3F',
+                            light: '#E8F5F1',
+                        },
+                        accent: {
+                            gold: '#D4AF37',
+                            'gold-dark': '#A38750',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        arabic: ['Amiri', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 glass-nav transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3 group cursor-pointer"
+                    onclick="window.location.href='index.html'">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-primary-main to-primary-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:rotate-6 transition-transform">
+                        <i class="fas fa-mosque text-accent-gold text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900 tracking-tight">MuslimFit <span
+                                class="text-accent-gold">Pro</span></h1>
+                        <p class="text-[10px] uppercase tracking-widest text-gray-500 font-semibold">Faith • Fitness •
+                            Wellness</p>
+                    </div>
+                </div>
+
+                <div class="hidden lg:flex items-center space-x-10">
+                    <a href="index.html#features"
+                        class="text-sm font-semibold text-primary-main transition-colors">Features</a>
+                    <a href="screenshots.html"
+                        class="text-sm font-semibold text-gray-700 hover:text-primary-main transition-colors">Screenshots</a>
+                    <a href="index.html#download"
+                        class="text-sm font-semibold text-gray-700 hover:text-primary-main transition-colors">Download</a>
+                    <a href="index.html#download" class="btn-premium primary text-sm">Get Started</a>
+                </div>
+
+                <button class="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl bg-gray-100"
+                    id="mobile-menu-btn">
+                    <i class="fas fa-bars text-gray-900"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="pt-40 pb-20 bg-white relative overflow-hidden">
+        <div class="pattern-bg absolute inset-0 opacity-10"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <div class="reveal-on-scroll active">
+                <span
+                    class="px-4 py-2 rounded-full bg-primary-light text-primary-main text-xs font-bold uppercase tracking-widest mb-6 inline-block">32+
+                    Total Features</span>
+                <h1 class="display-text text-5xl lg:text-7xl text-gray-900 mb-6">Complete <span
+                        class="gradient-text">Ecosystem</span></h1>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Explore the full breadth of MuslimFit Pro,
+                    meticulously designed to support every facet of your spiritual and physical lifestyle.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Gallery -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+
+            <!-- Category: Faith & Knowledge -->
+            <div class="mb-32">
+                <div class="flex items-center space-x-4 mb-12 reveal-on-scroll">
+                    <div class="w-1.5 h-10 bg-primary-main rounded-full"></div>
+                    <h2 class="text-4xl font-extrabold text-gray-900">Faith & Knowledge</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Quran -->
+                    <div class="glass-card p-10 reveal-on-scroll" style="transition-delay: 0.1s">
+                        <div class="feature-icon-wrapper bg-primary-light mb-8">
+                            <i class="fas fa-book-quran text-primary-main"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Complete Quran</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Experience the Holy Quran with audio recitations,
+                            word-by-word learning, and bookmarks.</p>
+                        <ul class="space-y-2 text-sm text-gray-500 font-medium">
+                            <li><i class="fas fa-check text-primary-main mr-2"></i> 114 Surahs & 30 Juz</li>
+                            <li><i class="fas fa-check text-primary-main mr-2"></i> Multilingual Translations</li>
+                            <li><i class="fas fa-check text-primary-main mr-2"></i> Recitation Progress</li>
+                        </ul>
+                    </div>
+
+                    <!-- Hadith -->
+                    <div class="glass-card p-10 reveal-on-scroll" style="transition-delay: 0.2s">
+                        <div class="feature-icon-wrapper bg-indigo-50 mb-8">
+                            <i class="fas fa-book-open text-indigo-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Hadith Vault</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Over 6 authentic collections including Sahih
+                            Bukhari and Muslim with global search.</p>
+                        <ul class="space-y-2 text-sm text-gray-500 font-medium">
+                            <li><i class="fas fa-check text-indigo-600 mr-2"></i> Authentic Sources</li>
+                            <li><i class="fas fa-check text-indigo-600 mr-2"></i> Multilingual Support</li>
+                            <li><i class="fas fa-check text-indigo-600 mr-2"></i> Keyword Search</li>
+                        </ul>
+                    </div>
+
+                    <!-- Duas -->
+                    <div class="glass-card p-10 reveal-on-scroll" style="transition-delay: 0.3s">
+                        <div class="feature-icon-wrapper bg-red-50 mb-8">
+                            <i class="fas fa-hands-praying text-red-500"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Daily Duas</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Categorized supplications (Athkar) for every
+                            moment of your daily life.</p>
+                        <ul class="space-y-2 text-sm text-gray-500 font-medium">
+                            <li><i class="fas fa-check text-red-500 mr-2"></i> Fortress of the Muslim</li>
+                            <li><i class="fas fa-check text-red-500 mr-2"></i> Audio Pronunciation</li>
+                            <li><i class="fas fa-check text-red-500 mr-2"></i> Favoriting System</li>
+                        </ul>
+                    </div>
+
+                    <!-- 99 Names -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-amber-50 mb-8">
+                            <i class="fas fa-infinity text-amber-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Asma-ul-Husna</h3>
+                        <p class="text-gray-600 leading-relaxed">The 99 Names of Allah with meanings, transliteration,
+                            and beautiful calligraphy.</p>
+                    </div>
+
+                    <!-- Six Kalmas -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-emerald-50 mb-8">
+                            <i class="fas fa-star-and-crescent text-emerald-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Six Kalmas</h3>
+                        <p class="text-gray-600 leading-relaxed">Complete collection with translations and explanations
+                            for fundamental Islamic declarations.</p>
+                    </div>
+
+                    <!-- Prophet Stories -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-blue-50 mb-8">
+                            <i class="fas fa-scroll text-blue-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Prophet Names</h3>
+                        <p class="text-gray-600 leading-relaxed">Biographies and names of the Prophets (PBUH) documented
+                            in the Holy Quran.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Worship & Rituals -->
+            <div class="mb-32">
+                <div class="flex items-center space-x-4 mb-12 reveal-on-scroll">
+                    <div class="w-1.5 h-10 bg-accent-gold rounded-full"></div>
+                    <h2 class="text-4xl font-extrabold text-gray-900">Worship & Rituals</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Prayer Times -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-accent-gold-light mb-8">
+                            <i class="fas fa-clock text-accent-gold-dark"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Salah Precinct</h3>
+                        <p class="text-gray-600 leading-relaxed">Highly accurate, GPS-based prayer timings with
+                            customizable Adhan notifications.</p>
+                    </div>
+
+                    <!-- Qibla -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-slate-100 mb-8">
+                            <i class="fas fa-compass text-slate-700"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Qibla Compass</h3>
+                        <p class="text-gray-600 leading-relaxed">Precision direction finder using your device hardware
+                            for accurate orientation.</p>
+                    </div>
+
+                    <!-- Namaz Guide -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-primary-light mb-8">
+                            <i class="fas fa-mosque text-primary-main"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Namaz Guide</h3>
+                        <p class="text-gray-600 leading-relaxed">Step-by-step visual and text guide for prayer rituals
+                            and Wudu (ablution).</p>
+                    </div>
+
+                    <!-- Hajj Umrah -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-stone-100 mb-8">
+                            <i class="fas fa-kaaba text-stone-700"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Pilgrimage Guide</h3>
+                        <p class="text-gray-600 leading-relaxed">Interactive checklists and procedure guides for Hajj
+                            and Umrah pilgrims.</p>
+                    </div>
+
+                    <!-- Ramadan Tracker -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-indigo-50 mb-8">
+                            <i class="fas fa-moon text-indigo-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Ramadan Hub</h3>
+                        <p class="text-gray-600 leading-relaxed">Exclusive tools for the Holy Month: Suhoor/Iftar alerts
+                            and fasting trackers.</p>
+                    </div>
+
+                    <!-- Hijri Calendar -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-rose-50 mb-8">
+                            <i class="fas fa-calendar-alt text-rose-500"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Hijri Calendar</h3>
+                        <p class="text-gray-600 leading-relaxed">Stay connected with the Islamic dates and important
+                            upcoming religious events.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Health & Fitness -->
+            <div class="mb-32">
+                <div class="flex items-center space-x-4 mb-12 reveal-on-scroll">
+                    <div class="w-1.5 h-10 bg-green-500 rounded-full"></div>
+                    <h2 class="text-4xl font-extrabold text-gray-900">Health & Fitness</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Steps -->
+                    <div class="glass-card p-8 reveal-on-scroll">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center text-orange-600 text-2xl mb-6">
+                            <i class="fas fa-walking"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Step Counter</h3>
+                        <p class="text-sm text-gray-600">Real-time tracking of your daily physical movement.</p>
+                    </div>
+
+                    <!-- Water -->
+                    <div class="glass-card p-8 reveal-on-scroll">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-600 text-2xl mb-6">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Water Intake</h3>
+                        <p class="text-sm text-gray-600">Smart reminders to keep you hydrated throughout the day.</p>
+                    </div>
+
+                    <!-- Sleep -->
+                    <div class="glass-card p-8 reveal-on-scroll">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-purple-50 flex items-center justify-center text-purple-600 text-2xl mb-6">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Sleep Monitor</h3>
+                        <p class="text-sm text-gray-600">Restorative tracking to ensure your body recovers well.</p>
+                    </div>
+
+                    <!-- Nutrition -->
+                    <div class="glass-card p-8 reveal-on-scroll">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-rose-50 flex items-center justify-center text-rose-600 text-2xl mb-6">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Nutrition</h3>
+                        <p class="text-sm text-gray-600">Calorie and meal logging with an Islamic perspective.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Growth & Experience -->
+            <div>
+                <div class="flex items-center space-x-4 mb-12 reveal-on-scroll">
+                    <div class="w-1.5 h-10 bg-indigo-500 rounded-full"></div>
+                    <h2 class="text-4xl font-extrabold text-gray-900">Growth & Rewards</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Achievements -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-amber-50 mb-8">
+                            <i class="fas fa-award text-amber-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Milestones</h3>
+                        <p class="text-gray-600 leading-relaxed">Earn unique badges for your consistency in prayer and
+                            physical fitness.</p>
+                    </div>
+
+                    <!-- Streaks -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-orange-50 mb-8">
+                            <i class="fas fa-fire text-orange-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Daily Streaks</h3>
+                        <p class="text-gray-600 leading-relaxed">Visual motivation to maintain your daily habits without
+                            interruption.</p>
+                    </div>
+
+                    <!-- Dashboards -->
+                    <div class="glass-card p-10 reveal-on-scroll">
+                        <div class="feature-icon-wrapper bg-blue-50 mb-8">
+                            <i class="fas fa-chart-line text-blue-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Advanced Stats</h3>
+                        <p class="text-gray-600 leading-relaxed">Comprehensive dashboards with charts showing your
+                            weekly and monthly progress.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-32 bg-primary-deep relative overflow-hidden">
+        <div class="pattern-bg absolute inset-0 opacity-10"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h2 class="display-text text-5xl text-white mb-8">Ready for the Full Experience?</h2>
+            <p class="text-xl text-white/70 max-w-2xl mx-auto mb-16">Download MuslimFit Pro now and unlock all 32+
+                premium features on your mobile device.</p>
+            <div class="flex justify-center gap-6">
+                <a href="index.html#download" class="btn-premium gold px-12 py-5 text-xl">Download Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-20 border-t border-gray-800">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center space-x-3 mb-8">
+                <div class="w-10 h-10 bg-primary-main rounded-xl flex items-center justify-center">
+                    <i class="fas fa-mosque text-accent-gold text-sm"></i>
+                </div>
+                <h1 class="text-xl font-bold text-white">MuslimFit <span class="text-accent-gold">Pro</span></h1>
+            </div>
+            <p class="text-gray-500 text-sm mb-12">&copy; 2026 MuslimFit Pro. All rights reserved.</p>
+            <div class="flex justify-center space-x-8">
+                <a href="index.html" class="text-sm text-gray-400 hover:text-white transition-colors">Home</a>
+                <a href="screenshots.html"
+                    class="text-sm text-gray-400 hover:text-white transition-colors">Screenshots</a>
+                <a href="index.html#download"
+                    class="text-sm text-gray-400 hover:text-white transition-colors">Download</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-2', 'bg-white/95');
+                nav.classList.remove('py-4', 'bg-white/80');
+            } else {
+                nav.classList.add('py-4', 'bg-white/80');
+                nav.classList.remove('py-2', 'bg-white/95');
+            }
+        });
+
+        // Intersection Observer for reveal on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal-on-scroll').forEach((el) => observer.observe(el));
+    </script>
+</body>
+
+</html>

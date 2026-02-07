@@ -1,0 +1,73 @@
+{
+  "status": "success",
+  "provider": "SunnahSource",
+  "count": 6,
+  "data": [
+    {
+      "id": 1,
+      "name_en": "First Kalma - Tayyab",
+      "name_ur": "پہلا کلمہ - طیب",
+      "arabic": "لَا إِلٰهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ",
+      "transliteration": "La ilaha illallahu Muhammadur Rasulullah",
+      "translation_en": "There is no god but Allah, Muhammad is the Messenger of Allah.",
+      "translation_ur": "اللہ کے سوا کوئی معبود نہیں، محمد اللہ کے رسول ہیں۔",
+      "meaning_en": "This is the declaration of faith (Shahada) that testifies to the Oneness of Allah and the Prophethood of Muhammad (ﷺ).",
+      "meaning_ur": "یہ ایمان کا اعلان ہے جو اللہ کی وحدانیت اور محمد (ﷺ) کی نبوت کی گواہی دیتا ہے۔"
+    },
+    {
+      "id": 2,
+      "name_en": "Second Kalma - Shahadat",
+      "name_ur": "دوسرا کلمہ - شہادت",
+      "arabic": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "Ash-hadu an la ilaha illallahu wahdahu la sharika lah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh",
+      "translation_en": "I bear witness that there is no god but Allah, the One, without any partner, and I bear witness that Muhammad is His servant and Messenger.",
+      "translation_ur": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اور میں گواہی دیتا ہوں کہ محمد اس کے بندے اور رسول ہیں۔",
+      "meaning_en": "This Kalma is the testimony of faith, declaring absolute monotheism and the servanthood of Prophet Muhammad (ﷺ).",
+      "meaning_ur": "یہ کلمہ ایمان کی گواہی ہے، مطلق توحید اور نبی محمد (ﷺ) کی بندگی کا اعلان کرتا ہے۔"
+    },
+    {
+      "id": 3,
+      "name_en": "Third Kalma - Tamjeed",
+      "name_ur": "تیسرا کلمہ - تمجید",
+      "arabic": "سُبْحَانَ اللهِ وَالْحَمْدُ لِلّٰهِ وَلَا إِلٰهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ",
+      "transliteration": "Subhanallahi walhamdulillahi wa la ilaha illallahu wallahu akbar, wa la hawla wa la quwwata illa billahil 'aliyyil 'azeem",
+      "translation_en": "Glory be to Allah, and all praise be to Allah, there is no god but Allah, and Allah is the Greatest. There is no power and no strength except with Allah, the Most High, the Most Great.",
+      "translation_ur": "اللہ پاک ہے، اور تمام تعریفیں اللہ کے لیے ہیں، اللہ کے سوا کوئی معبود نہیں، اور اللہ سب سے بڑا ہے۔ کوئی طاقت اور قوت نہیں سوائے اللہ کے، جو بلند اور عظیم ہے۔",
+      "meaning_en": "This Kalma glorifies Allah with His attributes of perfection, praise, greatness, and acknowledgment that all power belongs to Him alone.",
+      "meaning_ur": "یہ کلمہ اللہ کی کمال، تعریف، عظمت کی صفات کے ساتھ تسبیح کرتا ہے، اور تسلیم کرتا ہے کہ تمام طاقت صرف اسی کی ہے۔"
+    },
+    {
+      "id": 4,
+      "name_en": "Fourth Kalma - Tawheed",
+      "name_ur": "چوتھا کلمہ - توحید",
+      "arabic": "لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ، بِيَدِهِ الْخَيْرُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "transliteration": "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu yuhyi wa yumitu wa huwa hayyun la yamut, biyadihil-khayr, wa huwa 'ala kulli shay'in qadir",
+      "translation_en": "There is no god but Allah, the One, without any partner. To Him belongs the kingdom and to Him belongs all praise. He gives life and causes death, and He is Alive and will never die. In His hand is all good, and He has power over everything.",
+      "translation_ur": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں۔ اسی کی بادشاہت ہے اور اسی کے لیے تمام تعریفیں ہیں۔ وہ زندہ کرتا ہے اور مارتا ہے، اور وہ زندہ ہے کبھی نہیں مرے گا۔ اس کے ہاتھ میں تمام بھلائی ہے، اور وہ ہر چیز پر قادر ہے۔",
+      "meaning_en": "This Kalma emphasizes the absolute Unity and Sovereignty of Allah, His eternal life, and His complete control over all creation.",
+      "meaning_ur": "یہ کلمہ اللہ کی مطلق وحدانیت اور حکمرانی، اس کی ابدی زندگی، اور تمام مخلوق پر اس کے مکمل کنٹرول پر زور دیتا ہے۔"
+    },
+    {
+      "id": 5,
+      "name_en": "Fifth Kalma - Astaghfar",
+      "name_ur": "پانچواں کلمہ - استغفار",
+      "arabic": "أَسْتَغْفِرُ اللهَ رَبِّي مِنْ كُلِّ ذَنْبٍ أَذْنَبْتُهُ عَمَدًا أَوْ خَطَأً سِرًّا أَوْ عَلَانِيَةً وَأَتُوبُ إِلَيْهِ مِنَ الذَّنْبِ الَّذِي أَعْلَمُ وَمِنَ الذَّنْبِ الَّذِي لَا أَعْلَمُ، إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ وَسَتَّارُ الْعُيُوبِ وَغَفَّارُ الذُّنُوبِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ",
+      "transliteration": "Astaghfirullah Rabbi min kulli dhambin adhnabtuhu 'amdan aw khata'an sirran aw 'alaniyatan wa atubu ilayhi minaz-dhambil-ladhi a'lamu wa minaz-dhambil-ladhi la a'lam, innaka anta 'allamul-ghuyubi wa sattarul-'uyubi wa ghaffarudh-dhunub, wa la hawla wa la quwwata illa billahil 'aliyyil 'azeem",
+      "translation_en": "I seek forgiveness from Allah, my Lord, for every sin I committed knowingly or unknowingly, secretly or openly. I turn to Him in repentance from the sins that I know and from the sins that I do not know. Indeed, You are the Knower of the unseen, the Concealer of faults, and the Forgiver of sins. There is no power and no strength except with Allah, the Most High, the Most Great.",
+      "translation_ur": "میں اللہ سے، اپنے رب سے، ہر اس گناہ کی معافی مانگتا ہوں جو میں نے جان بوجھ کر یا غلطی سے، چھپ کر یا کھلے عام کیا۔ میں اس سے ان گناہوں سے توبہ کرتا ہوں جو میں جانتا ہوں اور ان گناہوں سے جو میں نہیں جانتا۔ بے شک تو ہی غیب کا جانے والا، عیبوں کو چھپانے والا، اور گناہوں کو بخشنے والا ہے۔ کوئی طاقت اور قوت نہیں سوائے اللہ کے، جو بلند اور عظیم ہے۔",
+      "meaning_en": "This Kalma is a comprehensive supplication for seeking forgiveness from Allah for all types of sins, known and unknown.",
+      "meaning_ur": "یہ کلمہ اللہ سے تمام قسم کے گناہوں، معلوم اور نامعلوم، کی معافی مانگنے کے لیے ایک جامع دعا ہے۔"
+    },
+    {
+      "id": 6,
+      "name_en": "Sixth Kalma - Radde Kufr",
+      "name_ur": "چھٹا کلمہ - ردِ کفر",
+      "arabic": "اللّٰهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَأَنَا أَعْلَمُ بِهِ، وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ بِهِ، تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكِذْبِ وَالْغِيبَةِ وَالْبِدْعَةِ وَالنَّمِيمَةِ وَالْفَوَاحِشِ وَالْبُهْتَانِ وَالْمَعَاصِي كُلِّهَا، وَأَسْلَمْتُ وَأَقُولُ لَا إِلٰهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ",
+      "transliteration": "Allahumma inni a'udhu bika min an ushrika bika shay'an wa ana a'lamu bihi, wa astaghfiruka lima la a'lamu bihi, tubtu 'anhu wa tabarra'tu minal-kufri wash-shirki wal-kidhbi wal-ghibati wal-bid'ati wan-namimati wal-fawahishi wal-buhtani wal-ma'asi kulliha, wa aslamtu wa aqulu la ilaha illallahu Muhammadur Rasulullah",
+      "translation_en": "O Allah! I seek refuge in You from knowingly associating anything with You, and I seek Your forgiveness for what I do not know. I repent from it, and I disassociate myself from disbelief, polytheism, falsehood, backbiting, innovation, tale-bearing, indecencies, slander, and all sins. I submit myself to You and I declare: There is no god but Allah, Muhammad is the Messenger of Allah.",
+      "translation_ur": "اے اللہ! میں تیری پناہ مانگتا ہوں کہ جان بوجھ کر تیرے ساتھ کسی چیز کو شریک کروں، اور میں تجھ سے معافی مانگتا ہوں جو میں نہیں جانتا۔ میں اس سے توبہ کرتا ہوں اور کفر، شرک، جھوٹ، غیبت، بدعت، چغلی، بے حیائی، بہتان اور تمام گناہوں سے بیزاری کا اعلان کرتا ہوں۔ میں نے اسلام قبول کیا اور کہتا ہوں: اللہ کے سوا کوئی معبود نہیں، محمد اللہ کے رسول ہیں۔",
+      "meaning_en": "This Kalma is a rejection of all forms of disbelief and sin, and a reaffirmation of faith in Allah and His Messenger.",
+      "meaning_ur": "یہ کلمہ تمام قسم کے کفر اور گناہ کی تردید، اور اللہ اور اس کے رسول پر ایمان کی تجدید ہے۔"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "status": "success",
+  "provider": "SunnahSource",
+  "data": {
+    "umrah_guide": {
+      "title_ur": "عمرہ کا مکمل طریقہ",
+      "title_en": "The Complete Method of Performing Umrah",
+      "summary_ur": "عمرہ کے چار اہم ارکان ہیں: احرام، طواف، سعی، اور سر کے بال کٹوانا۔",
+      "summary_en": "Umrah consists of four essential pillars: Ihram (Intent), Tawaf (Circumambulation), Sa'i (Walking), and Halq/Taqsir (Shaving/Trimming).",
+      "steps": [
+        {
+          "step_no": 1,
+          "name_ur": "احرام اور نیت",
+          "name_en": "Ihram and Intention",
+          "location_ur": "میقات یا رہائش گاہ",
+          "location_en": "Meeqat or Place of Residence",
+          "actions_ur": [
+            "غسل یا وضو کرنا اور صفائی کرنا۔",
+            "مردوں کے لیے: دو سفید غیر سلی چادریں۔",
+            "خواتین کے لیے: عام باپردہ لباس۔"
+          ],
+          "actions_en": [
+            "Perform Ghusl or Wudu and ensure physical purification.",
+            "For Men: Wear two pieces of white, unstitched cloth.",
+            "For Women: Wear modest, ordinary Islamic attire."
+          ],
+          "niyyah_ur": "اے اللہ! میں عمرہ کی نیت کرتا/کرتی ہوں، اسے میرے لیے آسان فرما اور قبول فرما۔",
+          "niyyah_en": "O Allah! I intend to perform Umrah, so please make it easy for me and accept it.",
+          "talbiyah": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "talbiyah_transliteration": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak",
+          "talbiyah_en": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace and sovereignty belong to You. You have no partner.",
+          "talbiyah_ur": "حاضر ہوں اے اللہ، حاضر ہوں۔ حاضر ہوں، تیرا کوئی شریک نہیں، حاضر ہوں۔ بے شک تمام تعریفیں، نعمتیں اور بادشاہی تیری ہی ہے۔ تیرا کوئی شریک نہیں۔"
+        },
+        {
+          "step_no": 2,
+          "name_ur": "طواف",
+          "name_en": "Tawaf",
+          "location_ur": "خانہ کعبہ",
+          "location_en": "The Holy Kaaba",
+          "circles": 7,
+          "procedure_ur": "حجرِ اسود سے شروع کریں، استلام کریں، اور 7 چکر مکمل کریں۔",
+          "procedure_en": "Begin at the Hajar al-Aswad, perform Istilam (kissing or pointing), and complete seven circuits around the Kaaba.",
+          "special_men_en": "Men should perform Ramal (brisk walking) in the first three circuits and keep the right shoulder uncovered (Idtiba).",
+          "post_actions_en": [
+            "Perform two Rak'ahs of prayer at Maqam-e-Ibrahim.",
+            "Drink water from the well of Zamzam."
+          ]
+        },
+        {
+          "step_no": 3,
+          "name_ur": "سعی",
+          "name_en": "Sa'i",
+          "location_ur": "صفا اور مروہ",
+          "location_en": "Safa and Marwa",
+          "circles": 7,
+          "procedure_ur": "صفا سے مروہ تک جانا ایک چکر کہلائے گا، مروہ سے صفا دوسرا۔",
+          "procedure_en": "Walking from Safa to Marwa is one circuit; from Marwa back to Safa is the second.",
+          "men_special_en": "Men are encouraged to jog slightly between the green pillars/lights."
+        },
+        {
+          "step_no": 4,
+          "name_ur": "حلق یا قصر",
+          "name_en": "Halq or Taqsir",
+          "location_ur": "حرم کی حدود",
+          "location_en": "Boundaries of the Haram",
+          "details_ur": [
+            "مرد: پورا سر منڈوانا یا چاروں طرف سے برابر بال کٹوانا۔",
+            "خواتین: اپنے بالوں کی چوٹی کے آخر سے ایک پور کے برابر بال کاٹنا۔"
+          ],
+          "details_en": [
+            "Men: Shave the entire head (Halq) or trim the hair equally from all sides (Taqsir).",
+            "Women: Clip a small portion of hair (equal to a fingertip) from the end of the braid."
+          ],
+          "result_en": "Upon completion, the state of Ihram is exited and Umrah is complete."
+        }
+      ]
+    },
+    "hajj_guide": {
+      "title_ur": "حجِ تمتع کا طریقہ",
+      "title_en": "The Method of Hajj al-Tamattu",
+      "summary_en": "Hajj is the annual Islamic pilgrimage to Makkah, performed over five days from 8th to 12th Dhul-Hijjah. It includes standing at Arafat, stoning the pillars, and Tawaf al-Ziyarah.",
+      "summary_ur": "حج سالانہ اسلامی فریضہ ہے جو مکہ میں 8 سے 12 ذوالحجہ تک پانچ دن میں ادا کیا جاتا ہے۔ اس میں عرفات میں وقوف، رمی جمرات، اور طوافِ زیارت شامل ہیں۔",
+      "days": [
+        {
+          "date": "8th Dhul-Hijjah",
+          "name_ur": "یوم الترویہ",
+          "name_en": "The Day of Tarwiyah",
+          "location": "Mina",
+          "actions_en": "Enter the state of Ihram for Hajj from Makkah, proceed to Mina, perform five prayers, and stay overnight.",
+          "actions_ur": "مکہ سے حج کے لیے احرام باندھیں، منیٰ کی طرف روانہ ہوں، پانچ نمازیں ادا کریں، اور رات گزاریں۔"
+        },
+        {
+          "date": "9th Dhul-Hijjah",
+          "name_ur": "یومِ عرفہ",
+          "name_en": "The Day of Arafah",
+          "location": "Arafat & Muzdalifah",
+          "actions_en": "Perform Waquf (standing) at Arafat after Zenith. After sunset, depart for Muzdalifah, combine Maghrib and Isha prayers, and collect pebbles.",
+          "actions_ur": "زوال کے بعد عرفات میں وقوف کریں۔ غروب آفتاب کے بعد مزدلفہ روانہ ہوں، مغرب اور عشاء کی نمازیں جمع کریں، اور کنکریاں جمع کریں۔"
+        },
+        {
+          "date": "10th Dhul-Hijjah",
+          "name_ur": "یوم النحر",
+          "name_en": "The Day of Sacrifice",
+          "location": "Mina & Makkah",
+          "actions_en": "Perform Rami of Jamarat al-Aqaba, offer sacrifice, perform Halq/Taqsir, and visit Makkah for Tawaf al-Ziyarah.",
+          "actions_ur": "جمرہ عقبہ کو کنکریاں ماریں، قربانی کریں، حلق یا قصر کریں، اور طوافِ زیارت کے لیے مکہ جائیں۔"
+        },
+        {
+          "date": "11th-12th Dhul-Hijjah",
+          "name_ur": "ایامِ تشریق",
+          "name_en": "Days of Tashreeq",
+          "location": "Mina",
+          "actions_en": "Perform Rami by stoning all three Jamarat (7 pebbles each) after Zenith and engage in the remembrance of Allah.",
+          "actions_ur": "زوال کے بعد تینوں جمرات کو کنکریاں ماریں (ہر ایک کو 7 کنکریاں) اور اللہ کے ذکر میں مشغول رہیں۔"
+        },
+        {
+          "date": "Departure",
+          "name_ur": "طوافِ وداع",
+          "name_en": "Farewell Tawaf",
+          "location": "Makkah",
+          "actions_en": "Perform the final Farewell Tawaf (Wada) before departing from Makkah (Wajib/Mandatory).",
+          "actions_ur": "مکہ سے روانہ ہونے سے پہلے آخری طوافِ وداع کریں (واجب/لازمی)۔"
+        }
+      ]
+    }
+  }
+}

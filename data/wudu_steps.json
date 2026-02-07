@@ -1,0 +1,134 @@
+[
+  {
+    "step": 1,
+    "title_en": "Intention (Niyyah)",
+    "title_ur": "نیت",
+    "title_ar": "النية",
+    "description_en": "Make intention in your heart to perform Wudu for purification",
+    "description_ur": "طہارت کے لیے وضو کرنے کی نیت دل میں کریں",
+    "arabic": "نَوَيْتُ أَنْ أَتَوَضَّأَ لِلصَّلَاةِ",
+    "transliteration": "Nawaitu an atawadda'a lis-salah"
+  },
+  {
+    "step": 2,
+    "title_en": "Say Bismillah",
+    "title_ur": "بسم اللہ",
+    "title_ar": "التسمية",
+    "description_en": "Begin by saying Bismillah (In the name of Allah)",
+    "description_ur": "بسم اللہ کہہ کر شروع کریں",
+    "arabic": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+    "transliteration": "Bismillahir Rahmanir Raheem"
+  },
+  {
+    "step": 3,
+    "title_en": "Wash Both Hands",
+    "title_ur": "دونوں ہاتھ دھونا",
+    "title_ar": "غسل الكفين",
+    "description_en": "Wash both hands up to the wrists three times",
+    "description_ur": "کلائیوں تک دونوں ہاتھ تین بار دھوئیں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 4,
+    "title_en": "Rinse Mouth",
+    "title_ur": "کلی کرنا",
+    "title_ar": "المضمضة",
+    "description_en": "Rinse mouth three times, using the right hand",
+    "description_ur": "دائیں ہاتھ سے تین بار کلی کریں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 5,
+    "title_en": "Clean Nose",
+    "title_ur": "ناک میں پانی ڈالنا",
+    "title_ar": "الاستنشاق",
+    "description_en": "Sniff water into the nose three times and blow it out",
+    "description_ur": "تین بار ناک میں پانی ڈالیں اور باہر نکالیں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 6,
+    "title_en": "Wash Face",
+    "title_ur": "چہرہ دھونا",
+    "title_ar": "غسل الوجه",
+    "description_en": "Wash the face three times from forehead to chin and ear to ear",
+    "description_ur": "پیشانی سے ٹھوڑی تک اور کان سے کان تک چہرہ تین بار دھوئیں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 7,
+    "title_en": "Wash Right Arm",
+    "title_ur": "دایاں بازو دھونا",
+    "title_ar": "غسل اليد اليمنى",
+    "description_en": "Wash right arm from fingertips to elbow three times",
+    "description_ur": "دائیں بازو کو انگلیوں سے کہنی تک تین بار دھوئیں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 8,
+    "title_en": "Wash Left Arm",
+    "title_ur": "بایاں بازو دھونا",
+    "title_ar": "غسل اليد اليسرى",
+    "description_en": "Wash left arm from fingertips to elbow three times",
+    "description_ur": "بائیں بازو کو انگلیوں سے کہنی تک تین بار دھوئیں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 9,
+    "title_en": "Wipe Head",
+    "title_ur": "سر کا مسح کرنا",
+    "title_ar": "مسح الرأس",
+    "description_en": "Wipe the head once with wet hands from front to back",
+    "description_ur": "گیلے ہاتھوں سے سر کو آگے سے پیچھے کی طرف ایک بار مسح کریں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 10,
+    "title_en": "Wipe Ears",
+    "title_ur": "کانوں کا مسح",
+    "title_ar": "مسح الأذنين",
+    "description_en": "Wipe inside and outside of both ears with wet fingers",
+    "description_ur": "گیلی انگلیوں سے دونوں کانوں کے اندر اور باہر مسح کریں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 11,
+    "title_en": "Wash Right Foot",
+    "title_ur": "دایاں پاؤں دھونا",
+    "title_ar": "غسل الرجل اليمنى",
+    "description_en": "Wash right foot up to ankle three times",
+    "description_ur": "دائیں پاؤں کو ٹخنے تک تین بار دھوئیں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 12,
+    "title_en": "Wash Left Foot",
+    "title_ur": "بایاں پاؤں دھونا",
+    "title_ar": "غسل الرجل اليسرى",
+    "description_en": "Wash left foot up to ankle three times",
+    "description_ur": "بائیں پاؤں کو ٹخنے تک تین بار دھوئیں",
+    "arabic": "",
+    "transliteration": ""
+  },
+  {
+    "step": 13,
+    "title_en": "Dua After Wudu",
+    "title_ur": "وضو کے بعد دعا",
+    "title_ar": "دعاء بعد الوضوء",
+    "description_en": "Recite the dua after completing Wudu",
+    "description_ur": "وضو مکمل ہونے کے بعد دعا پڑھیں",
+    "arabic": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+    "transliteration": "Ashhadu an la ilaha illallahu wahdahu la shareeka lah, wa ashhadu anna Muhammadan abduhu wa rasooluh",
+    "translation_en": "I bear witness that there is no deity except Allah, alone without partner, and I bear witness that Muhammad is His servant and Messenger",
+    "translation_ur": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے اس کا کوئی شریک نہیں، اور میں گواہی دیتا ہوں کہ محمد صلی اللہ علیہ وسلم اللہ کے بندے اور رسول ہیں"
+  }
+]

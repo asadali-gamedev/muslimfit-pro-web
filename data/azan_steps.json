@@ -1,0 +1,98 @@
+[
+  {
+    "step": 1,
+    "title_en": "First Takbir",
+    "title_ur": "پہلی تکبیر",
+    "title_ar": "التكبير الأول",
+    "description_en": "Face the Qibla and say Allahu Akbar twice",
+    "description_ur": "قبلہ رخ ہو کر دو بار اللہ اکبر کہیں",
+    "arabic": "اللّٰهُ أَكْبَرُ اللّٰهُ أَكْبَرُ",
+    "transliteration": "Allahu Akbar, Allahu Akbar",
+    "translation_en": "Allah is the Greatest, Allah is the Greatest",
+    "translation_ur": "اللہ سب سے بڑا ہے، اللہ سب سے بڑا ہے"
+  },
+  {
+    "step": 2,
+    "title_en": "Testimony of Faith (Part 1)",
+    "title_ur": "شہادت (حصہ اول)",
+    "title_ar": "الشهادة (الجزء الأول)",
+    "description_en": "Bear witness to the Oneness of Allah twice",
+    "description_ur": "دو بار اللہ کی وحدانیت کی گواہی دیں",
+    "arabic": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ",
+    "transliteration": "Ashhadu an la ilaha illallah, Ashhadu an la ilaha illallah",
+    "translation_en": "I bear witness that there is no deity except Allah (twice)",
+    "translation_ur": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں (دو بار)"
+  },
+  {
+    "step": 3,
+    "title_en": "Testimony of Prophethood",
+    "title_ur": "رسالت کی شہادت",
+    "title_ar": "شهادة الرسالة",
+    "description_en": "Bear witness to the Prophethood of Muhammad twice",
+    "description_ur": "دو بار محمد صلی اللہ علیہ وسلم کی رسالت کی گواہی دیں",
+    "arabic": "أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللّٰهِ أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللّٰهِ",
+    "transliteration": "Ashhadu anna Muhammadan Rasoolullah, Ashhadu anna Muhammadan Rasoolullah",
+    "translation_en": "I bear witness that Muhammad is the Messenger of Allah (twice)",
+    "translation_ur": "میں گواہی دیتا ہوں کہ محمد صلی اللہ علیہ وسلم اللہ کے رسول ہیں (دو بار)"
+  },
+  {
+    "step": 4,
+    "title_en": "Call to Prayer",
+    "title_ur": "نماز کی طرف بلاوا",
+    "title_ar": "الدعوة للصلاة",
+    "description_en": "Call people to prayer twice",
+    "description_ur": "دو بار لوگوں کو نماز کی طرف بلائیں",
+    "arabic": "حَيَّ عَلَى الصَّلَاةِ حَيَّ عَلَى الصَّلَاةِ",
+    "transliteration": "Hayya alas-salah, Hayya alas-salah",
+    "translation_en": "Come to prayer, Come to prayer",
+    "translation_ur": "نماز کی طرف آؤ، نماز کی طرف آؤ"
+  },
+  {
+    "step": 5,
+    "title_en": "Call to Success",
+    "title_ur": "فلاح کی طرف بلاوا",
+    "title_ar": "الدعوة للفلاح",
+    "description_en": "Call people to success twice",
+    "description_ur": "دو بار لوگوں کو فلاح کی طرف بلائیں",
+    "arabic": "حَيَّ عَلَى الْفَلَاحِ حَيَّ عَلَى الْفَلَاحِ",
+    "transliteration": "Hayya alal-falah, Hayya alal-falah",
+    "translation_en": "Come to success, Come to success",
+    "translation_ur": "فلاح کی طرف آؤ، فلاح کی طرف آؤ"
+  },
+  {
+    "step": 6,
+    "title_en": "Final Takbir",
+    "title_ur": "آخری تکبیر",
+    "title_ar": "التكبير النهائي",
+    "description_en": "Say Allahu Akbar twice at the end",
+    "description_ur": "آخر میں دو بار اللہ اکبر کہیں",
+    "arabic": "اللّٰهُ أَكْبَرُ اللّٰهُ أَكْبَرُ",
+    "transliteration": "Allahu Akbar, Allahu Akbar",
+    "translation_en": "Allah is the Greatest, Allah is the Greatest",
+    "translation_ur": "اللہ سب سے بڑا ہے، اللہ سب سے بڑا ہے"
+  },
+  {
+    "step": 7,
+    "title_en": "Declaration of Oneness",
+    "title_ur": "توحید کا اعلان",
+    "title_ar": "إعلان التوحيد",
+    "description_en": "Declare the Oneness of Allah once",
+    "description_ur": "ایک بار اللہ کی وحدانیت کا اعلان کریں",
+    "arabic": "لَا إِلٰهَ إِلَّا اللّٰهُ",
+    "transliteration": "La ilaha illallah",
+    "translation_en": "There is no deity except Allah",
+    "translation_ur": "اللہ کے سوا کوئی معبود نہیں"
+  },
+  {
+    "step": 8,
+    "title_en": "Dua After Azan",
+    "title_ur": "اذان کے بعد دعا",
+    "title_ar": "دعاء بعد الأذان",
+    "description_en": "Recite this dua after hearing the Azan",
+    "description_ur": "اذان سننے کے بعد یہ دعا پڑھیں",
+    "arabic": "اللّٰهُمَّ رَبَّ هٰذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+    "transliteration": "Allahumma Rabba hadhihid-da'watit-tammah, was-salatil-qa'imah, ati Muhammadanil-waseelata wal-fadeelah, wab'ath-hu maqaman mahmudanil-ladhi wa'adtah",
+    "translation_en": "O Allah, Lord of this perfect call and established prayer, grant Muhammad the intercession and superiority, and raise him to the praiseworthy position that You have promised him",
+    "translation_ur": "اے اللہ! اس کامل دعوت اور قائم ہونے والی نماز کے رب، محمد صلی اللہ علیہ وسلم کو وسیلہ اور فضیلت عطا فرما، اور انہیں اس قابل تعریف مقام پر فائز فرما جس کا تو نے ان سے وعدہ فرمایا ہے"
+  }
+]
